@@ -5,4 +5,9 @@ class Student < User
 
   def learn(string_of_knowledge)
     KNOWLEDGE << string_of_knowledge
+  end
+
+  def knowledge
+    KNOWLEDGE
+  end
 end
